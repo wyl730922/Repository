@@ -34,3 +34,13 @@ build:
     - script:
         name: copy binary
         code: cp app "$WERCKER_OUTPUT_DIR"
+        
+# create and push image to docker hub
+deploy:
+   steps:
+     - internal/docker-push:
+        username: $USERNAME
+        password: $PASSWORD
+        tag: wercker01
+        repository: wyl730922/wercker-push
+        registry: https://registry.hub.docker.com
