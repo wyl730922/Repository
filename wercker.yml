@@ -44,4 +44,4 @@ deploy:
         password: $PASSWORD
         tag: wercker
         repository: wyl730922/wercker-push
-        #registry: https://registry.hub.docker.com
+        registry: https://hub.docker.com
