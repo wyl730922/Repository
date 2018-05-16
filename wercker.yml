@@ -45,7 +45,7 @@ deploy:
         #password: $PASSWORD
         password: "wyl730922"
         cmd: /pipeline/source/app
-        port:"5000"
+        port: "5000"
         tag: wercker
         repository: wyl730922/wercker-push
         #registry: https://hub.docker.com
