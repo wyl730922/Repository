@@ -40,8 +40,8 @@ deploy:
  
    steps:
      - internal/docker-push:
-        username: $USERNAME
-        password: $PASSWORD
+        username: "wyl730922"
+        password: "wyl730922"
         tag: wercker
         repository: wyl730922/wercker-push
-        registry: https://hub.docker.com
+        #registry: https://hub.docker.com
